@@ -1,5 +1,5 @@
 ### [post.py](post.py)
-Priority Order Staging Tool. User Services staff puts xlsx files in a directory per priority order in 
+Priority Order Staging Tool. User Services staff put xlsx files in a directory per priority order in 
 /mnt/pgc/data/staging/prio_ftp/<ordername>/order/ where ordername is like "PGC_order_2021apr13_UserService_Priority".
 post.py scrapes the xlsx files for catalog IDs unless there is an Order.complete file in the order subdir. 
 Checks the daily dump folder /mnt/pgc/data/tmp-stg/staging/to_bw/<date_dir> where date_dir is like "04_15_2021" 
